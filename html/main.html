@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DAA Assignment-II</title>
+    <style>
+      /* CSS styling goes here */
+      body {
+        font-family: Arial, sans-serif;
+      }
+      h1 {
+        color: navy;
+        text-align: center;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      li {
+        margin-bottom: 10px;
+      }
+      a {
+        color: navy;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>DAA Assignment-II</h1>
+    <hr>
+    <h2><b><center>Team Members</center></b></h2>
+    <center><ul>
+      <li>Madhur Saraf Jain (2020A7PS1106H)</li>
+      <li>Kaustav Chatterji (2020A7PS1112H)</li>
+      <li>Siddhesh Bahety (2020A7PS1686H)</li>
+      <li>Kartikay Dhall (2020A7PS2087H)</li>
+    </ul></center>
+    <hr>
+    <center><b><p><a href="files.html">Doxygen Documentation of the Code</a> </p></b></center>
+    <hr>
+    <center><b><p><a href="pythonviz.html">Python Visualisation</a> </p></b></center>
+    <hr>
+    <h1>Abstract</h1>
+    <p>The Ford-Fulkerson algorithm is a widely used algorithm for finding the maximum flow in a flow network, which is a directed graph with a source, a sink, and capacities on each edge. The algorithm is named after its inventors, L.R. Ford Jr. and D.R. Fulkerson, who first described it in 1956.
+
+The basic idea behind the Ford-Fulkerson algorithm is to iteratively increase the flow along an augmenting path in the network until no more augmenting paths can be found. An augmenting path is a path from the source to the sink in which all edges have positive residual capacity, which is the difference between the edge's capacity and its current flow. The flow along an augmenting path can be increased by the smallest residual capacity among its edges, and this process can be repeated until no more augmenting paths can be found.
+
+To keep track of the flow in the network, the algorithm uses a residual graph, which is a graph that represents the residual capacities of the edges in the original network. Initially, the residual graph is the same as the original graph, but as the algorithm proceeds, the residual capacities of the edges are updated to reflect the current flow in the network.
+
+The Ford-Fulkerson algorithm can be implemented using several different methods for finding augmenting paths, such as breadth-first search, depth-first search, or the Edmonds-Karp algorithm, which uses breadth-first search. The time complexity of the algorithm depends on the method used to find augmenting paths and can range from O(E^2F) to O(VEF), where E is the number of edges, V is the number of vertices, and F is the maximum flow in the network.
+
+The Ford-Fulkerson algorithm has many practical applications, such as in transportation planning, network routing, and computer network optimization. One of its most famous applications is in the Max-Flow Min-Cut theorem, which states that the maximum flow in a network is equal to the minimum cut, which is the minimum sum of capacities of edges that need to be removed to disconnect the source from the sink.
+
+</p>
+
+
+
+
+    
+  </body>
+</html>
